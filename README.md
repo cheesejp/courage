@@ -14,3 +14,11 @@ https://cellato.tokyo/
 ## デザイン集のページ
 
 https://sankoudesign.com/
+
+
+## アニメーション
+https://linksbase.net/css-svg-animation/
+
+
+## フォント
+https://pixelbuddha.net/fonts/bahagia-typeface
