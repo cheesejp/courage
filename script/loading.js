@@ -1,6 +1,6 @@
 
 window.addEventListener('load', function () {
-    const maxLoadingTime = 4000;
+    const maxLoadingTime = 3000;
     var loading = document.querySelector('.loading');
     setTimeout(function () {
         loading.style.opacity = '0';
