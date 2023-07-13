@@ -188,6 +188,10 @@ $(document).ready(function () {
         slideshowNext($(this).closest('.slideshow'), $(this).hasClass('prev'));
     });
 
+    $('.slide-content .caption .btn').on('click', function () {
+        slideshowNext($(this).closest('.slideshow'), false);
+    });
+
     $('.slideshow .pagination .item').on('click', function () {
         slideshowSwitch($(this).closest('.slideshow'), $(this).index());
     });

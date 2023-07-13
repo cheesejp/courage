@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'antro-vectra';
+  src: url(../asset/Antro_Vectra.otf), url(../asset/Antro_Vectra_Bolder.otf);
+}
+
+@font-face {
+  font-family: 'noto-sans';
+  src: url(../asset/NotoSansJP-VariableFont_wght.ttf);
+}
+
 body {
   font: 14px/2 "Open sans", sans-serif;
   letter-spacing: 0.05em;
@@ -109,6 +119,11 @@ body {
   padding: 0 100px;
 }
 
+.slideshow .slide .icon-caption {
+  width: 100%;
+}
+
+
 .slideshow .slide .image-container {
   position: absolute;
   top: 0;
@@ -153,19 +168,69 @@ body {
   align-items: center;
 }
 
+.slideshow .icon-content {
+  flex-direction: column;
+}
+
+.slideshow .icon-content .spacer {
+  flex: 6 0 0;
+}
+
+.slideshow .icon-content .icon-caption {
+  flex: 4 0 0;
+}
+
 .slideshow .slide .title {
-  margin: 0 auto 15px;
   max-width: 1000px;
   font: 300 50px/1.2 "Oswald", sans-serif;
-  letter-spacing: 0.35em;
+  font-weight: bold;
+  letter-spacing: 0.5em;
   text-transform: uppercase;
+}
+
+.slideshow .slide .subtitle {
+  font-size: 2rem;
+  font-family: 'noto-sans';
+  margin: 0 auto 15px;
 }
 
 .slideshow .slide .text {
   margin: 0 auto;
   max-width: 1000px;
-  font-size: 18px;
+  font-size: 1.5rem;
   line-height: 1.4;
+  font-family: "noto-sans";
+  letter-spacing: 0.25rem;
+  text-align: left;
+}
+
+.slideshow .slide .text p {
+  margin-bottom: 10px;
+}
+
+.slideshow .slide .text ul {
+  margin-bottom: 10px;
+}
+
+.slideshow .slide .text ul {
+  list-style: disc;
+  padding-left: 40px;
+}
+
+.slideshow .slide .icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+/* .slideshow .slide .icon a {
+  display: flex;
+} */
+
+.slideshow .slide .icon img {
+  width: 100px;
+  height: 100px;
 }
 
 .slideshow .slide .btn {
