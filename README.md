@@ -22,3 +22,12 @@ https://linksbase.net/css-svg-animation/
 
 ## フォント
 https://pixelbuddha.net/fonts/bahagia-typeface
+
+https://pm85122.onamae.jp/851fontpage.html
+
+https://fontmeme.com/jfont/antro-vectra-font/
+
+https://booth.pm/ja/items/2199202
+
+## スライドショー
+https://codepen.io/bcarvalho/pen/gWPvJB
